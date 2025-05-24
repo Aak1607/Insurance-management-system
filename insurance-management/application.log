@@ -1,0 +1,41 @@
+2025-05-24T11:59:38.037+05:30  INFO 9964 --- [insurance-management] [restartedMain] c.bank.InsuranceManagementApplication    : Starting InsuranceManagementApplication using Java 17.0.11 with PID 9964 (C:\Users\AKHILESH\Documents\workspace-spring-tool-suite-4-4.22.1.RELEASE\insurance-management\target\classes started by AKHILESH in C:\Users\AKHILESH\Documents\workspace-spring-tool-suite-4-4.22.1.RELEASE\insurance-management)
+2025-05-24T11:59:38.037+05:30  INFO 9964 --- [insurance-management] [restartedMain] c.bank.InsuranceManagementApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T11:59:38.317+05:30  INFO 9964 --- [insurance-management] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-24T11:59:38.334+05:30  INFO 9964 --- [insurance-management] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interface.
+2025-05-24T11:59:38.467+05:30  INFO 9964 --- [insurance-management] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-24T11:59:38.468+05:30  INFO 9964 --- [insurance-management] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T11:59:38.469+05:30  INFO 9964 --- [insurance-management] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T11:59:38.495+05:30  INFO 9964 --- [insurance-management] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-24T11:59:38.496+05:30  INFO 9964 --- [insurance-management] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 453 ms
+2025-05-24T11:59:38.547+05:30  INFO 9964 --- [insurance-management] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-24T11:59:38.552+05:30  INFO 9964 --- [insurance-management] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-24T11:59:38.571+05:30  INFO 9964 --- [insurance-management] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-24T11:59:38.573+05:30  INFO 9964 --- [insurance-management] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-05-24T11:59:38.597+05:30  INFO 9964 --- [insurance-management] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5cacb935
+2025-05-24T11:59:38.598+05:30  INFO 9964 --- [insurance-management] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-05-24T11:59:38.600+05:30  INFO 9964 --- [insurance-management] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.37
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-24T11:59:38.668+05:30  INFO 9964 --- [insurance-management] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-24T11:59:38.686+05:30  INFO 9964 --- [insurance-management] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-24T11:59:38.797+05:30  WARN 9964 --- [insurance-management] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-24T11:59:38.983+05:30  INFO 9964 --- [insurance-management] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-05-24T11:59:39.007+05:30  INFO 9964 --- [insurance-management] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-24T11:59:39.039+05:30  INFO 9964 --- [insurance-management] [restartedMain] c.bank.InsuranceManagementApplication    : Started InsuranceManagementApplication in 1.092 seconds (process running for 103.17)
+2025-05-24T11:59:39.042+05:30  INFO 9964 --- [insurance-management] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-05-24T12:00:21.151+05:30  INFO 9964 --- [insurance-management] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-24T12:00:21.152+05:30  INFO 9964 --- [insurance-management] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-24T12:00:21.154+05:30  INFO 9964 --- [insurance-management] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-05-24T12:00:21.392+05:30  INFO 9964 --- [insurance-management] [http-nio-8080-exec-2] com.bank.controller.PolicyController     : Received request to create a new policy
+2025-05-24T12:00:21.392+05:30  INFO 9964 --- [insurance-management] [http-nio-8080-exec-2] com.bank.service.PolicyService           : Creating policy: com.bank.model.Policy@6e1b7916
+2025-05-24T12:04:16.653+05:30  INFO 9964 --- [insurance-management] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-24T12:04:16.655+05:30  INFO 9964 --- [insurance-management] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T12:04:16.962+05:30  INFO 9964 --- [insurance-management] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T12:04:16.966+05:30  INFO 9964 --- [insurance-management] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-24T12:04:16.967+05:30  INFO 9964 --- [insurance-management] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-05-24T12:04:16.981+05:30  INFO 9964 --- [insurance-management] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
