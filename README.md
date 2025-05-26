@@ -38,9 +38,6 @@ All endpoints are tested using **Postman**.
 - Includes full CRUD for each module
 - Validation of business rules before bill or claim creation
 
-👉 You can import the [Postman Collection here](./postman/InsuranceSystem.postman_collection.json) (if uploaded).
-
----
 
 ## 🛠️ Tech Stack
 
