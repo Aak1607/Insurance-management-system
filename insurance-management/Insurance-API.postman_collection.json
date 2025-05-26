@@ -1,0 +1,150 @@
+{
+  "info": {
+    "name": "Insurance Management System",
+    "_postman_id": "e17cc8a5-b7fd-4b7e-b847-dfabbe218763",
+    "description": "Postman collection to test Policy, Billing, and Claim modules.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "1. Create Policy",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"policyNumber\": \"POL123\",\n  \"holderName\": \"John Doe\",\n  \"policyType\": \"Health\",\n  \"startDate\": \"2024-01-01\",\n  \"endDate\": \"2025-01-01\",\n  \"status\": \"Active\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/policies",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "policies"
+          ]
+        }
+      }
+    },
+    {
+      "name": "2. Get All Policies",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:8080/api/policies",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "policies"
+          ]
+        }
+      }
+    },
+    {
+      "name": "3. Generate Bill",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"policyNumber\": \"POL123\",\n  \"amount\": 5000.0,\n  \"dueDate\": \"2024-06-01\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/billings",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "billings"
+          ]
+        }
+      }
+    },
+    {
+      "name": "4. Get Bills by Policy Number",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:8080/api/billings/POL123",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "billings",
+            "POL123"
+          ]
+        }
+      }
+    },
+    {
+      "name": "5. File a Claim",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"policyNumber\": \"POL123\",\n  \"claimAmount\": 3000.0,\n  \"description\": \"Medical surgery expenses\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/claims",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "claims"
+          ]
+        }
+      }
+    },
+    {
+      "name": "6. Get Claims by Policy Number",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:8080/api/claims/POL123",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "claims",
+            "POL123"
+          ]
+        }
+      }
+    }
+  ]
+}
